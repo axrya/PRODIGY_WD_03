@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom right, #3498db, #8e44ad);
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+    margin-bottom: 20px;
+    color: #34495e;
+}
+
+.mode-selection {
+    margin-bottom: 15px;
+}
+
+.mode-selection select {
+    padding: 5px 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    background-color: #ecf0f1;
+    cursor: pointer;
+    border: 2px solid #34495e;
+    transition: background 0.2s ease;
+}
+
+.cell:hover {
+    background-color: #bdc3c7;
+}
+
+.cell.winning {
+    background-color: #27ae60;
+    color: white;
+}
+
+.status {
+    margin: 20px 0;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #3498db;
+}
