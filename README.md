@@ -1,6 +1,6 @@
 # PRODIGY_WD_03
 
-Tic-Tac-Toe Game
+🎮 Tic-Tac-Toe Game
 
 This project is part of my internship at Prodigy InfoTech as a Web Development Intern. It is my third task in the program and involves building an interactive Tic-Tac-Toe game using HTML, CSS, and JavaScript. The game features a modern design and includes a game mode where users can choose between playing with a friend or against a basic AI.
 
